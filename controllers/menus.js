@@ -1,6 +1,6 @@
-const menuRouter = require('express').Router();
-// let foodData = require('../data/foodData.js');
-let alldata = require('../data/menus.js');
+const router = require("express").Router();
+// let foodData = require("../data/foodData.js");
+let alldata = require("../data/menus.js");
 
 /* const getWelcomeMessage = (req, res) => {
   res.send('<em>Reindeer food service for train passengers</em>');
@@ -18,20 +18,20 @@ const getAllMenus = (req, res) => {
 // GET
 // menuRouter.get('/', getWelcomeMessage);
 
-menuRouter.get('/', getAllMenus);
+router.get("/", getAllMenus);
 
-/* menuRouter.get('/:id', (req, res) => {
+router.get("/:id", (req, res) => {
   const id = Number(req.params.id);
-  const menu = foodData.find(food => Number(food.id) === id);
+  const menu = alldata.find((food) => Number(food.id) === id);
   if (menu) {
     res.json(menu);
-  }
-  else {
+  } else {
     res.statusMessage = `Id - ${id} does not exist`;
     res.status(404).end();
   }
 });
 
+/*
 // POST
 const generateId = () => {
   const maxId = foodData.length > 0
@@ -64,4 +64,4 @@ menuRouter.delete('/:id', (req, res) => {
   res.status(202).end();
 }); */
 
-module.exports = menuRouter;
+module.exports = router;
