@@ -11,7 +11,7 @@ let foodData = [
         country: "Finland",
         discount: "FI",
         image:
-          "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/1.jpg",
+          "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/1.jpg?raw=true",
         foodChoices: ["Gluton free"],
         price: 10,
       },
@@ -23,7 +23,7 @@ let foodData = [
         country: "Finland",
         discount: "FI",
         image:
-          "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/2.jpg",
+          "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/2.jpg?raw=true",
         foodChoices: ["Gluton free"],
         price: 10,
       },
