@@ -39,6 +39,7 @@ let foodData = [
     ingredient: "garlic, salad, Chilli ",
     available: true,
     country: "Finland",
+    label: "Silver",
     discount: "FI",
     hueA: 60,
     hueB: 90,
