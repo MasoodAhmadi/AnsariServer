@@ -31,4 +31,4 @@ let Membership = [
   },
 ];
 
-module.exports = foodChoices;
+module.exports = Membership;
