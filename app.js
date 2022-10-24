@@ -1,6 +1,6 @@
 const menuRouter = require("./controllers/menus");
 const citiesRouter = require("./controllers/cities");
-const MembershipRouter = require("./controllers/foodChoices");
+const MembershipRouter = require("./controllers/membership");
 const trainModelsRouter = require("./controllers/trainModels");
 const express = require("express");
 const cors = require("cors");

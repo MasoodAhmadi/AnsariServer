@@ -1,6 +1,7 @@
 let foodData = [
   {
     id: "1",
+    label: "Permium",
     item: "item01",
     ingredient: "potato,cucumber",
     available: true,
@@ -9,8 +10,10 @@ let foodData = [
     hueA: 340,
     hueB: 10,
     image:
-      "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/1.jpg?raw=true",
-    foodChoices: ["Non-Veg"],
+      "https://github.com/MasoodAhmadi/AnsariServer/blob/4eeb784677b675c68e9d42052fa91fc3417e7a65/data/images/first.jpg?raw=true",
+    price: 79,
+    currency: "$",
+    duration: 3,
   },
   {
     id: "2",
@@ -22,9 +25,13 @@ let foodData = [
     hueB: 40,
 
     discount: "FI",
+    label: "Gold",
+    selected: true,
     image:
-      "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/2.jpg?raw=true",
-    foodChoices: ["Non-Veg"],
+      "https://github.com/MasoodAhmadi/AnsariServer/blob/4eeb784677b675c68e9d42052fa91fc3417e7a65/data/images/second.jpg?raw=true",
+    price: 49,
+    currency: "$",
+    duration: 3,
   },
   {
     id: "3",
@@ -36,8 +43,10 @@ let foodData = [
     hueA: 60,
     hueB: 90,
     image:
-      "https://github.com/MasoodAhmadi/AnsariServer/blob/5c620278e95dc4cb39db0099f0569d22645a533f/data/images/3.jpg?raw=true",
-    foodChoices: ["Veg"],
+      "https://github.com/MasoodAhmadi/AnsariServer/blob/4eeb784677b675c68e9d42052fa91fc3417e7a65/data/images/third.jpg?raw=true",
+    price: 29,
+    currency: "$",
+    duration: 3,
   },
   {
     id: "4",
