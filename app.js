@@ -1,6 +1,6 @@
 const menuRouter = require("./controllers/menus");
 const citiesRouter = require("./controllers/cities");
-const choicesRouter = require("./controllers/foodChoices");
+const MembershipRouter = require("./controllers/foodChoices");
 const trainModelsRouter = require("./controllers/trainModels");
 const express = require("express");
 const cors = require("cors");
@@ -14,7 +14,7 @@ app.use(middleware.requestLogger);
 app.use("/api/menus", menuRouter);
 app.use("/api/menus/:id", menuRouter);
 app.use("/api/cities", citiesRouter);
-app.use("/api/foodchoices", choicesRouter);
+app.use("/api/Membership", MembershipRouter);
 app.use("/api/trainmodels", trainModelsRouter);
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);

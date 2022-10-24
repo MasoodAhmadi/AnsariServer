@@ -1,8 +1,8 @@
-const choicesRouter = require("express").Router();
-const foodChoices = require("../data/foodChoices");
+const router = require("express").Router();
+const Membership = require("../data/Membership");
 
-choicesRouter.get("/", (req, res) => {
-  res.json(foodChoices);
+router.get("/", (req, res) => {
+  res.json(Membership);
 });
 
-module.exports = choicesRouter;
+module.exports = router;
